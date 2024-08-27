@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+.Navbar{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    background-color:#dee2e6;
+}
+.SearchBar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 150px;   
+}
+.SearchBar_Not{
+    display: none;
+}
+.SearchBar input{
+    width: 100%;
+    height: 30px;
+    border: 2px solid black;
+    padding-right: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Logo img{
+    width: 240px;
+    height: 200px;
+}
+.LinkBar{
+    position: absolute;
+    right: 0;
+}
+.Link{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color:black;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.Link:hover{
+    background-color: gray;
+}
+.Menu_div{
+    position: absolute;
+    left: 20px;
+}
+.Icon{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.Search_Icon{
+    position: absolute;
+    right: 25px;
+    cursor: pointer;
+}
+.MenuBar_Box{
+    opacity: 1;
+    position: absolute;
+    left: 20px;
+    top: 80px;
+    height: 400px;
+    width: 200px;
+    z-index: 3;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    transition: opacity 0.3s ease;
+}
+.MenuBar_arrow{
+    opacity: 1;
+    position: absolute;
+    left: 1.4rem;
+    top: 4.3rem;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid black;
+    transition: opacity 0.3s ease;
+}
+.MenuBar_Box_Not{
+    position: absolute;
+    opacity: 0;
+}
+.MenuBar_arrow_Not{
+    opacity: 0;
+}
+
+.Menu_Link{
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.Menu_Link:hover{
+    background-color: gray;
+}
