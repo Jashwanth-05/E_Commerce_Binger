@@ -1,0 +1,36 @@
+.cards{
+    width: 350px;
+    height: 350px;
+    margin-left: 160px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+.details{
+    text-align: center;
+}
+.details img{
+    position: relative;
+    right: 3rem;
+    display: block;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn button{
+    width: 8rem;
+    height: 2rem;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+}
+.btn button:hover{
+    background-color: gray;
+}

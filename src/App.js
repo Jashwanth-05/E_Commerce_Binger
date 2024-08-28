@@ -10,6 +10,7 @@ import "./Components/Styles/app.css";
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import "./Components/Styles/app.css"
+
 const App = () => {
   return (
     <div>
@@ -23,7 +24,6 @@ const App = () => {
           <Route path="/signup" element={<SignUp />}/>
           <Route path="/helpline" element={<HelpLine />}/>
           <Route path="/categories" element={<Categories />}/>
-
         </Routes>
       </BrowserRouter>
     </div>

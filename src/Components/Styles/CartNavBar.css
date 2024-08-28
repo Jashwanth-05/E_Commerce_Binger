@@ -1,0 +1,22 @@
+.Navbox{
+    width: 100%;
+    height: 4rem;
+    background-color: black;
+    display: flex;  
+    align-items:center;
+    position: relative;
+    font-size: large;
+    overflow: hidden;
+}
+.Shop{
+    position:absolute;
+    left: 80px;
+    color:white;
+}
+.Cart{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    justify-content: center;
+    color:white;
+}

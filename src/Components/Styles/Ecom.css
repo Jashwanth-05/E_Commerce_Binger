@@ -1,0 +1,5 @@
+.cards1{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 100px;
+}

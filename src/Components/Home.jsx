@@ -1,9 +1,11 @@
 import React from 'react';
 import Keyboard from "./Images/Keyboard.jpg";
 import "./Styles/Home.css";
+import Cartform from './Cartform';
+
 const Home = () => {
   return (
-    <div>
+    <div className='Body_div'>
       <div className='Home_page'>
         <div className='container'>
           <div className='content'>
@@ -16,7 +18,7 @@ const Home = () => {
         </div>
         <img src={Keyboard} alt="Keyboard" />
       </div>
-      
+      <Cartform />
     </div>
   )
 }

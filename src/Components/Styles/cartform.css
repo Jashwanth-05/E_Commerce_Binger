@@ -1,0 +1,16 @@
+.Warning{
+    border: 2px solid black;
+    border-radius: 4px;
+    width: 15rem;
+    height: 3rem;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(189, 210, 2);
+    color: white;
+    top: 50rem;
+    left: 40rem;
+    transform: translateY(50%);
+    font-size: large;
+}
